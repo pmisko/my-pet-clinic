@@ -42,10 +42,9 @@
         </plugins>
     </build>
     <scm>
-
-        <developerConnection>scm:git:https://github.com/pmisko/my-pet-clinic.git</developerConnection>
-<!--        <url>https://github.com/pmisko/my-pet-clinic.git</url>-->
-        <tag>my-pet-clinic-0.0.1</tag>
+        <connection>scm:git:git@github.com:pmisko/my-pet-clinic.git</connection>
+        <developerConnection>scm:git:git@github.com:pmisko/my-pet-clinic.git</developerConnection>
+        <url>http://github.com/pmisko/my-pet-clinic.git</url>
     </scm>
 
 </project>
