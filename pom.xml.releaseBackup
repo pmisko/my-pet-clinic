@@ -36,6 +36,7 @@
                 <artifactId>maven-release-plugin</artifactId>
                 <configuration>
                     <goals>install</goals>
+                    <autoVersionSubmodules>true</autoVersionSubmodules>
                 </configuration>
             </plugin>
         </plugins>
@@ -46,7 +47,6 @@
         <developerConnection>scm:git:git@github.com:pmisko/my-pet-clinic.git</developerConnection>
 <!--        <url>http://github.com/pmisko/my-pet-clinic.git</url>-->
 <!--      <tag>my-pet-clinic-0.0.1</tag>-->
-    <tag>my-pet-clinic-0.0.1</tag>
   </scm>
 
 </project>
