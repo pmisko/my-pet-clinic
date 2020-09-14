@@ -14,7 +14,7 @@
     </parent>
     <groupId>pl.pmisko</groupId>
     <artifactId>my-pet-clinic</artifactId>
-    <version>0.0.1</version>
+    <version>0.0.1-SNAPSHOT</version>
     <name>my-pet-clinic</name>
     <description>Pet Clinic</description>
 
@@ -43,9 +43,10 @@
     </build>
     <scm>
 <!--        <connection>scm:git:git@github.com:pmisko/my-pet-clinic.git</connection>-->
+<!--        <developerConnection>scm:git:git@github.com:pmisko/my-pet-clinic.git</developerConnection>-->
         <developerConnection>scm:git:git@github.com:pmisko/my-pet-clinic.git</developerConnection>
 <!--        <url>http://github.com/pmisko/my-pet-clinic.git</url>-->
-      <tag>my-pet-clinic-0.0.1</tag>
+<!--      <tag>my-pet-clinic-0.0.1</tag>-->
   </scm>
 
 </project>
