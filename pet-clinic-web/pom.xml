@@ -3,7 +3,7 @@
     <parent>
         <artifactId>my-pet-clinic</artifactId>
         <groupId>pl.pmisko</groupId>
-        <version>0.0.1-SNAPSHOT</version>
+        <version>0.0.2</version>
     </parent>
     <modelVersion>4.0.0</modelVersion>
 
@@ -37,5 +37,6 @@
 
 
   <scm>
+    <tag>0.0.2</tag>
   </scm>
 </project>
