@@ -6,8 +6,6 @@ import pl.pmisko.mypetclinic.model.Owner;
 import pl.pmisko.mypetclinic.model.Vet;
 import pl.pmisko.mypetclinic.services.OwnerService;
 import pl.pmisko.mypetclinic.services.VetService;
-import pl.pmisko.mypetclinic.services.map.OwnerServiceMap;
-import pl.pmisko.mypetclinic.services.map.VetServiceMap;
 
 
 @Component
@@ -16,9 +14,9 @@ public class DataLoader implements CommandLineRunner {
     private final OwnerService ownerService;
     private final VetService vetService;
 
-    public DataLoader() {
-        ownerService = new OwnerServiceMap();
-        vetService = new VetServiceMap();
+    public DataLoader(OwnerService ownerService, VetService vetService) {
+        this.ownerService = ownerService;
+        this.vetService = vetService;
     }
 
     @Override
