@@ -1,4 +1,4 @@
-package services;
+package pl.pmisko.mypetclinic.services;
 
 import java.util.Set;
 

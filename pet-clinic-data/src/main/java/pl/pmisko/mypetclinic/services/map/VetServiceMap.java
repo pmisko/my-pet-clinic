@@ -1,11 +1,11 @@
-package services.map;
+package pl.pmisko.mypetclinic.services.map;
 
 import pl.pmisko.mypetclinic.model.Vet;
-import services.CrudService;
+import pl.pmisko.mypetclinic.services.VetService;
 
 import java.util.Set;
 
-public class VetServiceMap extends AbstractMapService<Vet, Long> implements CrudService<Vet, Long> {
+public class VetServiceMap extends AbstractMapService<Vet, Long> implements VetService {
 
         @Override
         public Set<Vet> findAll() {
