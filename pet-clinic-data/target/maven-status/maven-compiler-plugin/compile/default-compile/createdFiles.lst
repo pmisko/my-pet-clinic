@@ -1,5 +1,14 @@
-pl\pmisko\mypetclinic\model\PetType.class
 pl\pmisko\mypetclinic\model\Owner.class
-pl\pmisko\mypetclinic\model\Pet.class
 pl\pmisko\mypetclinic\model\Vet.class
+pl\pmisko\mypetclinic\model\BaseEntity.class
+pl\pmisko\mypetclinic\model\PetType.class
+pl\pmisko\mypetclinic\services\CrudService.class
+pl\pmisko\mypetclinic\services\VetService.class
+pl\pmisko\mypetclinic\services\OwnerService.class
+pl\pmisko\mypetclinic\services\PetService.class
+pl\pmisko\mypetclinic\model\Pet.class
+pl\pmisko\mypetclinic\services\map\PetServiceMap.class
 pl\pmisko\mypetclinic\model\Person.class
+pl\pmisko\mypetclinic\services\map\OwnerServiceMap.class
+pl\pmisko\mypetclinic\services\map\VetServiceMap.class
+pl\pmisko\mypetclinic\services\map\AbstractMapService.class

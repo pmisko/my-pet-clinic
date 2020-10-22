@@ -1,1 +1,5 @@
+pl\pmisko\mypetclinic\bootstrap\DataLoader.class
+pl\pmisko\mypetclinic\controllers\OwnersController.class
+pl\pmisko\mypetclinic\controllers\VetController.class
+pl\pmisko\mypetclinic\controllers\IndexController.class
 pl\pmisko\mypetclinic\MyPetClinicApplication.class
