@@ -1,10 +1,12 @@
 package pl.pmisko.mypetclinic.model;
 
+import java.util.HashSet;
 import java.util.Set;
 
 public class Vet extends Person {
 
-    Set<Specialty> specialties;
+    Set<Specialty> specialties = new HashSet<>();
+
 
     public Vet() {
     }
